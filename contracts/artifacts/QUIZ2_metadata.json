@@ -1,0 +1,166 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_ID",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_PW",
+						"type": "string"
+					}
+				],
+				"name": "getHash",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_ID",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_PW",
+						"type": "string"
+					}
+				],
+				"name": "logIn",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_ID",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_PW",
+						"type": "string"
+					}
+				],
+				"name": "signIn",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_ID",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_PW",
+						"type": "string"
+					}
+				],
+				"name": "signOut",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_ID",
+						"type": "string"
+					}
+				],
+				"name": "userInfo",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"components": [
+							{
+								"internalType": "bytes32",
+								"name": "hash",
+								"type": "bytes32"
+							},
+							{
+								"internalType": "uint256",
+								"name": "attempts",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct QUIZ2.User",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/2.sol": "QUIZ2"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/2.sol": {
+			"keccak256": "0xd32f629867446d681e54c0de09fa21dc8a67a807e7c7472a6449afdc1a8b4318",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://35bdf330e06d0b19d12b95e8b30ffa2db0324dccf20db687a6cd59f9a1d02f9d",
+				"dweb:/ipfs/QmVvvGjxQaio4MHZ1P6LParhwpZuUv9NmYG8kKYdxVSwrj"
+			]
+		}
+	},
+	"version": 1
+}
